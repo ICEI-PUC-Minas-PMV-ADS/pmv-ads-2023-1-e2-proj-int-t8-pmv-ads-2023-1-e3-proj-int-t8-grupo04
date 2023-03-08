@@ -1,6 +1,6 @@
-# TÍTULO DO PROJETO
+# DESENVOLVIMENTO DE APLICAÇÃO WEB BACK-END
 
-`CURSO`
+`Analise e Desenvlvimento de Sistemas`
 
 `DISCIPLINA`
 
@@ -10,10 +10,11 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+Andressa Júlia Guedes Ribeiro
+Bruna Letícia Pereira Morato
+Felipe De Oliveira Viana
+Sanderlei Cabral
+Vinícius Moreira Lopes
 
 ## Orientador
 
