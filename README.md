@@ -1,12 +1,12 @@
 # DESENVOLVIMENTO DE APLICAÇÃO WEB BACK-END
 
-`Analise e Desenvlvimento de Sistemas`
+`Analise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Interativa`
 
-`SEMESTRE`
+`EIXO 2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto trata-se de uma aplicação web, onde sera construido um closet online, com as peças reais do guarda roupa do usuario. Sera utilizada a linguagem c# em back-end, e no front-end Html, Java Script e Css.
 
 ## Integrantes
 
@@ -18,7 +18,7 @@ Vinícius Moreira Lopes
 
 ## Orientador
 
-* Nome completo do professor 1
+* Daniela Carvalho Monteiro Ferreira
 
 ## Instruções de utilização
 
