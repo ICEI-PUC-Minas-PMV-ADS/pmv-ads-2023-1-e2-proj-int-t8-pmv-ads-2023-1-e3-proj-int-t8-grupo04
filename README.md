@@ -10,11 +10,11 @@ O projeto trata-se de uma aplicação web, onde sera construido um closet online
 
 ## Integrantes
 
-Andressa Júlia Guedes Ribeiro
-Bruna Letícia Pereira Morato
-Felipe De Oliveira Viana
-Sanderlei Cabral
-Vinícius Moreira Lopes
+- Andressa Júlia Guedes Ribeiro
+- Bruna Letícia Pereira Morato
+- Felipe De Oliveira Viana
+- Sanderlei Cabral
+- Vinícius Moreira Lopes
 
 ## Orientador
 
