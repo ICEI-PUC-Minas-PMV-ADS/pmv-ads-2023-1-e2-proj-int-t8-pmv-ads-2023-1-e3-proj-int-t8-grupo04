@@ -16,14 +16,19 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 ## Histórias de Usuários
 
-A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários. (no minimo 3 para cada persona)
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+|Joana | fazer uso das funcionalidades do app para catalogar todas as minhas peças de roupas, sapatos e acessórios |criar mais  combinações de looks, mesmo com poucas peças|
+|Joana | fazer uso das funcionalidades do app para ter um estilo próprio e autêntico, mas sem cair na armadilha do consumo desenfreado | de forma criativa e consciente, fugir das amarras do consumismo. promovendo um mundo mais equilibrado no âmbito ambiental e pessoal|
+|Joana| fazer uso das funcionalidades do app para diminuir meu consumo de roupas descartáveis e desnecessárias | promover um estilo de vida mais minimalista e sustentável|
+|Laura | fazer uso das funcionalidades do app para adotar uma mentalidade minimalista em relação à moda com foco nas roupas que realmente preciso, coibindo assim compras impulsivas | reduzir o consumo de peças de roupas novas e investir em peças de qualidade, com maior durabilidade e versatilidade |
+|Laura| fazer uso das funcionalidades do app para catalogar peças velhas, gastas | reparar itens danificados e doar a terceiros|
+|Laura|fazer uso das funcionalidades do app para rastrear peças e acessórios em desuso | trocar e assim adquirir peças multifuncionais e ecológicas|
+|Clara|fazer uso das funcionalidades do app ter mais praticidade, agilidade e foco na vestimenta da ocasião |assessoria visual na montagem de looks diários|
+|Clara|fazer uso das funcionalidades do app priorizar o consumo e novas aquisições de peças mais duráveis |evitar o consumo de produtos sintéticos e de difícil decomposição |
+|Clara|fazer uso das funcionalidades do app e organizar o meu closet por segmento de uso (descolado, empresarial, moda praia, inverno, etc) |evitar compras de itens que já possuo, bem como itens que não combine com o que já tenho|
 
 ## Requisitos
 
