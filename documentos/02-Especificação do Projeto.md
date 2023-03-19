@@ -44,9 +44,9 @@ A Tabela a seguir apresenta os requisitos funcionais do projeto, bem como suas p
 |RF-002| O web site/aplicativo deve exibir as peças preferidas, por parte dos usuários, no botão “peças favoritas”.                         |    MÉDIA   |
 |RF-003| O web site/aplicativo deve ter uma funcionalidade de pesquisa na página principal.                                                 |    ALTA    |
 |RF-004| O site deve conter um filtro para encontrar peças com mais facilidade.                                                             |    ALTA    |
-|RF-005|
-|RF-006|
-|RF-007|
+|RF-005| O web site/aplicativo deve permitir ao usuário a inclusão/cadastro de suas roupas bem como a remoção de peças.                     |    ALTA    |
+|RF-006| O web site/aplicativo deve permitir ao usuário a composição de looks, mediante as peças cadastradas.                               |    MEDIA   |
+|RF-007| O web site/aplicativo deve permitir o compartilhamento de seus look, através de mídias sociais.                                    |    MEDIA   |         
 
 ### Requisitos não Funcionais
 
