@@ -77,4 +77,4 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 ## Diagrama de Casos de Uso
 
-docs/img/Diagrama Crud.jpeg
+[docs/img/Diagrama Crud.jpeg](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/blob/562485c0b0e35e583737b7af644f906a5bb74de8/docs/img/Diagrama%20Crud.jpeg)
