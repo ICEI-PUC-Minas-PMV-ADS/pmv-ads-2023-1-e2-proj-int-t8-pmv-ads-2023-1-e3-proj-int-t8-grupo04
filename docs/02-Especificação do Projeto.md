@@ -8,150 +8,73 @@ A definição dos problemas e necessidades detectados para idealizar esse projet
 
 Personas - As personas levantadas durante o processo de entendimento do problema são apresentadas no quadro a seguir.
 
-Nome: Joana
-
-Idade:22 anos
-
-Ocupação: Mestrado na área de Arquitetura.
-
-Salário: 2.500,00
-
-Estado civil: Solteira
-
-Hobbies:
-Fazer trilha;
-Ler;
-Ouvir Música;
-Cozinhar.
-
-Características: 
-Calma;
-Dedicada;
-Comprometida;
-Vegana;
-Feminista;
- Minimalista;
-Engajada em causas sociais;
-Adora animais de estimação e a natureza.
-
-Valores/Crenças: Acredita em consumo consciente e preservação ambiental;
-Consome somente o necessário;
-Acredita que menos é mais 
-
-Aplicativos: 
-Canvas
-Instagram
-Twitter
-Pinterest
-
-Frustrações:
-Consumismo exacerbado;
-Descaso com a natureza e o planeta;
-Capitalismo Desenfreado;
-Não conseguir fazer mais pelo planeta.
-
-Motivações: 
-Ser uma pessoa melhor a cada dia;
-Ajudar as pessoas e o planeta;
-Criar projetos de moradias sustentáveis.
+|PERSONA 1                                  |                                         |                                        |
+|-------------------------------------------|-----------------------------------------|----------------------------------------|
+|Nome: Joana                                |Características:                         | Aplicativos:                           |
+|Estado civil: Solteira                     |Sonhadora                                |CapCut                                  |
+|Idade: 22 anos                             |Calma;                                   |Canvas                                  |
+|Ocupação: Mestrado na área de Arquitetura  |Dedicada;                                |Instagram                               |
+|Salário: 2.500,00                          |Comprometida;                            |Twitter                                 |
+|Estado civil: Solteira                     |Vegana;                                  |Pinterest                               |
+|                                           |Feminista;                               |                                        |
+|Hobbies:                                   |Minimalista;                             |Frustrações:                            |
+|Fazer trilha;                              |Engajada em causas sociais;              |Consumismo exacerbado;                  |
+|Ler;                                       |Adora animais de estimação e a natureza. |Descaso com a natureza e o planeta;     |
+|Ouvir Música;                              |                                         |Capitalismo Desenfreado;                |
+|Cozinhar.                                  |Valores/Crenças:                         |Não conseguir fazer mais pelo planeta.  |
+|                                           |Acredita em preservação ambiental;       |                                        |
+|                                           |preservação ambiental;                   |Motivações:                             |
+|                                           |Consome somente o necessário;            |Ser uma pessoa melhor a cada dia;       |
+|                                           |Acredita que menos é mais                |Ajudar as pessoas e o planeta;          |
+|                                           |                                         |Criar projetos de moradias sustentáveis |
 
 
-Nome: Laura
-
-Idade: 29 anos
-
-Ocupação: Médica
-
-Salário: 12.000,00
-
-Estado civil: Noiva
-
-Hobbies:
-Viajar;
-Ler;
-Sair com as amigas;
-Conhecer bons restaurantes;
-Comprar roupas, bolsas e sapatos.
-
-Características: 
-Extrovertida;
-Determinada;
-Independente;
-Consumista (mas quer melhorar);
-Focada na carreira;
-Não quer ter filhos;
-
-Valores/Crenças: Acredita que o sucesso só depende do seu esforço e trabalho;
-É leal a ela mesma e aos seus objetivos;
-Quem não vai à luta perde a batalha.
-
-Aplicativos:
-Instagram
-Twitter
-Linkedin
-Pinterest
-Mojo
-
-Frustrações:
-É  muito perfeccionista e isso acaba atrapalhando um pouco;
-Não ter conseguido fazer uma especialização internacional;
-Não abriu seu próprio consultório ainda
-
-Motivações: 
-Ser uma profissional extremamente bem sucedida;
-Comprar uma casa linda e se casar;
-Ajudar muitos pacientes através do seu trabalho;
-Tentar ser um pouco menos consumista.
+|Persona 2                                  |                                         |                                        | 
+|-------------------------------------------|-----------------------------------------|----------------------------------------|
+|Nome: Laura                                |Características:                         |Aplicativos:
+|Idade: 29 anos                             |Extrovertida;                            |Instagram                          
+|Ocupação: Médica                           |Determinada;                             |Twitter
+|Salário: 12.000,00                         |Independente;                            |Linkedin
+|Estado civil: Noiva                        |Consumista (mas quer melhorar);          |Pinterest
+|Salário: 12.000,00                         |Focada na carreira;                      |Mojo
+|                                           |Não quer ter filhos;                     |
+|                                           |                                         |
+|Hobbies:                                   |Valores/Crenças:                         |Frustrações:                                
+|Ler;                                       |É leal a ela mesma e aos seus objetivos; |É  muito perfeccionista e isso acaba atrapalhando um pouco; 
+|Sair com as amigas;                        |Quem não vai à luta perde a batalha.     |Não abriu seu próprio consultório ainda
+|Conhecer bons restaurantes;                |Acredita que o sucesso só depende  do trabalho     |Não ter conseguido fazer uma especialização internacional;
+|Comprar roupas, bolsas e sapatos.          |                                         |
+|Viajar;                                    |                                         |
+|                                           |                                         |
+|                                           |                                         |Motivações: 
+|                                           |                                         |Ser uma profissional extremamente bem sucedida;
+|                                           |                                         |Ajudar muitos pacientes através do seu trabalho;
+|                                           |                                         |Comprar uma casa linda e se casar;
+|                                           |                                         |Tentar ser um pouco menos consumista.
 
 
-Nome: Clara
+|Persona 3                       |                              |                                      |
+|--------------------------------|------------------------------|--------------------------------------------|
+|Nome: Clara                     | Características:             |Aplicativos: |
+|Idade: 32 anos                  | Trabalha muito;              |Revistas de modas;
+|Ocupação: Empresária (empresa de consultoria de imagem)| Determinada; |Instagram;
+|Salário: Entre 20.000,00 e 30.000,00|Muito apaixonada pela família,|Pinterest;
+|Estado civil: Casada com um filho.|Dedicada;|
+|                                  |Detalhista;|                                                                                                                       |                                  |                                                    
+|Hobbies:                          |
+|Viajar;                           |Valores/Crenças: |  Frustrações:           
+|Correr;                           |Você deve ser vestir para o cargo que deseja alcançar;|Não poder aumentar a família;
+|Sair para teatros e museus;       |Trabalhar é servir e isso é o que move o ser humano;|Morar longe dos pais;             
+|Ficar com a família;              |Todo meu esforço é pela minha família.|Dificuldade de empreender no país
+|Cozinhar;                         | A família é a base do sucesso.|
+|Ler;                              |Acredita que a aparência importa 
+|                                  | |
+|                                 || Motivações: 
+|                                  ||Ter uma família feliz e unida;
+|                                  ||Ajudar mulheres a se sentirem mais bonitas, valorizadas e poderosas através do seu trabalho.
+|                                  ||Ser bem sucedida;
+|                                  ||Comprar uma casa no campo;
 
-Idade: 32 anos
-
-Ocupação: Empresária (empresa de consultoria de imagem)
-
-Salário: Entre 20.000,00 e 30.000,00
-
-Estado civil: Casada com um filho.
-
-Hobbies:
-Viajar;
-Correr;
-Ficar com a família;
-Ler;
-Sair para teatros e museus;
-Cozinhar;
-Conhecer cafeterias;
-
-Características: 
-Trabalha muito;
-Determinada;
-Muito apaixonada pela família,
-Dedicada;
-Detalhista;
-Vaidosa.
-
-Valores/Crenças: Acredita que a aparência importa, por isso trabalha no ramo de consultoria de imagem;
-Você deve ser vestir para o cargo que deseja alcançar;
-Trabalhar é servir e isso é o que move o ser humano;
-Todo meu esforço é pela minha família.
-A família é a base do sucesso.
-
-Aplicativos: 
-Revistas de modas;
-Instagram;
-Pinterest;
-
-Frustrações:
-Não poder aumentar a família;
-Morar longe dos pais;
-Dificuldade de empreender no país
-
-Motivações: 
-Ter uma família feliz e unida;
-Ser bem sucedida;
-Ajudar mulheres a se sentirem mais bonitas, valorizadas e poderosas através do seu trabalho.
-Comprar uma casa no campo;
 
 ## Histórias de Usuários
 
