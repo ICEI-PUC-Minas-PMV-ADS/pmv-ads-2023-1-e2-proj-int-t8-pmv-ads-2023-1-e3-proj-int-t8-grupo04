@@ -72,6 +72,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |RE-02| O aplicativo se restringe à linguagem c# back-end.                        |
 |RE-03| A equipe do projeto não poderá subcontratar o desenvolvimento do projeto. |
 
+O projeto será desenvolvido em etapas subdivididas a modo de atender o tempo previsto para a entrega do mesmo. Para isso ultilizaremos softwares para acompanhamento de projeto.
+A restrisição de linguagem se dá pelo desenvolvimento no curso, contemplando o que é lecionado nas disciplinas. Visando aprendizado a equipe do projeto serálimitada exclisivamente por integrantes do grupo. 
+
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
 
