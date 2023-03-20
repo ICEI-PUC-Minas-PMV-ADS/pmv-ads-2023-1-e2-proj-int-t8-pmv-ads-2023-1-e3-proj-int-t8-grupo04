@@ -134,7 +134,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |RE-02| O aplicativo se restringe à linguagem c# back-end.                        |
 |RE-03| A equipe do projeto não poderá subcontratar o desenvolvimento do projeto. |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
+Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata. (Vinicius ficou com essa parte, porém não fez).
 
 
 ## Diagrama de Casos de Uso
