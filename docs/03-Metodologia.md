@@ -3,7 +3,8 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+  A metodologia engloba as ferramentas e plataformas escolhidas para auxílio no desenvolvimento do Projeto. Essas ferramentas serão utilizadas com o intuito de organização de tempo/tarefas a serem executadas por cada membro da equipe, para a manutenção dos códigos, para criação de artefatos e gerenciamento do time na execução das tarefas do projeto.
+  Para o desenvolvimento das etapas foram utilizadas as seguintes ferramentas: O hambiente de trabalho foi o Microsoft teams a fim de reunirmos e trabalharmos juntos; Visual Studio 2019 para a estrutura e gestão do código fonte; GitHub como repositório e organizador de sprints e tarefas e Git para controle de versões; Figma para realizar o design do layout do front-end; e Lucidchart e Astah para a confecção do diagrama de caso de uso.
 
 ## Controle de Versão
 
@@ -26,14 +27,10 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+A configuração do projeto no GitHub foi feita seguindo os seguintes passos:
+Criou-se um repositório; Configuraram-se as opções do repositório, após criar o repositório, foram feitas configurações para personalizar o projeto, como a descrição, o arquivo README, as licenças e outras configurações; Adicionaram-se colaboradores: foi possível adicionar colaboradores ao projeto, concedendo-lhes permissões de acesso ao repositório (todos como adm); Foi feita a configuração sas branchs: as branchs são uma parte fundamental da estrutura do projeto e devem ser configuradas de acordo com as necessidades do projeto. Para isso, é possível criar novas branchs, definir as regras de acesso e configurar o fluxo de trabalho; Configuraram-se as issues: as issues eram uma maneira eficiente de gerenciar e rastrear tarefas e problemas no projeto. Para configurar as issues, podemos definir as labels, atribuir responsáveis e configurar as notificações; Configuramos as permissões: as permissões eram uma parte importante da configuração do projeto, pois definiam quem tinha acesso a quais recursos do repositório, como todos os mesmos são parte da equipe foi dada a permissão de adm a todos; Esses foram apenas as configurações que utilizamos para realizar o projeto no GitHub. A plataforma oferece muitas outras opções e recursos que poderiam ser utilizados para personalizar e gerenciar projetos de acordo com as necessidades.
+A gerência de tags, merges, commits e branchs foram feitas seguindo as seguintes etapas: Criação de branchs para permitir que os colaboradores de um projeto trabalhem em diferentes versões do código ao mesmo tempo, sem interferir no trabalho uns dos outros. A realização de Commits para salvar as alterações realizadas nos arquivos do repositório. Cada commit é uma versão específica do código, que inclui as alterações feitas desde o último commit, importante sempre adicionar comentários sobre o que se trata a alteração; São feitas merges para combinar em uma única versão alterações feitas em diferentes versões do código, tornando mais fácil o gerenciamento das alterações e  para manter uma única versão principal do projeto. Já a utilização de tags serão para marcar pontos específicos na linha do tempo de um projeto, como releases, versões ou marcos importantes.
+A gerência de issues no GitHub é importante para rastrear tarefas, problemas, bugs e solicitações de recursos do projeto, permitindo que a equipe criasse, discutisse e resolvessem problemas relacionados ao projeto em um único local.
 
 ## Gerenciamento de Projeto
 
