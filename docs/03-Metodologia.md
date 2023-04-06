@@ -86,20 +86,22 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 
 ### Ferramentas
 
-O projeto está sendo desenvolvido com o auxílio das seguintes ferramentas, conforme lista abaixo:
+O projeto está sendo desenvolvido com o auxílio das seguintes ferramentas, conforme apresentado à baixo:
 
 - **Repositório de Código Fonte:** GitHub (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04)
+- **Gerenciamento do Projeto:** GitHub
 - **Ferramenta de Comunicação:** Microsoft Teams
 - **Editor de Código:** Visual Studio v.2019
-- **Ferramentas de desenho de tela (_wireframing_):** .Figma .LucidChart
+- **Ferramentas de desenho de tela (_wireframing_), diagramas e fluxogramas:** .Figma .LucidChart
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+A ferramente utilizada como repositório de códio fonte, foi o GitHub. Sua escolha foi feita pois além de funcionar como um repositório, também nos fornece mecanismos para gereciar o projeto em sí, mantendo toda a equipe informada e sincronizada com relação às tarefas baseadas na metodologia Scrum. 
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
+O editor de código, Visual Studio v. 2019, foi escolhido porque possui uma melhor integração com o sistema de versão. 
+
+A ferramenta de comunicação utilizada, Microsoft Teams, além de suprir as necessidade da equipe com relação a chamadas de video, chat etc é bem intuitiva e facilita bastante o trabalho.
+
+Por fim, para criarmos Diagramas e Wireframes utilizamos o LucidChart e o Figma, pois entendemos que estes melhor traduzem as nossas necessidades e do projeto também.
+
  
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
 > - [Slack](https://slack.com/)
