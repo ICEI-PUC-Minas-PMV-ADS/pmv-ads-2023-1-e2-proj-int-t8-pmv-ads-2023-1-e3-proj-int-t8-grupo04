@@ -88,7 +88,7 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 
 O projeto está sendo desenvolvido com o auxílio das seguintes ferramentas, conforme lista abaixo:
 
-- **Repositório de Código Fonte:** GitHub 
+- **Repositório de Código Fonte:** GitHub (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04)
 - **Ferramenta de Comunicação:** Microsoft Teams
 - **Editor de Código:** Visual Studio v.2019
 - **Ferramentas de desenho de tela (_wireframing_):** .Figma .LucidChart
