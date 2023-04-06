@@ -76,7 +76,22 @@ A equipe foi organizada, conforme abaixo, da seguinte maneira:
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+Conforme especificado anteriormente, uma vez definido o Scrum como metodologia de desenvolvimento do software, segue abaixo os detalhes sobre a implementação deste no projeto.
+
+- A equipe Scrum é composta pela Scrum Master e Product Owner Andressa Guedes, e pela equipe de desenvolvimento e design, composta pelos seguintes membros: Felipe Viana, Luana Scardua e Sanderlei Cabral.
+
+- A Scrum Master será responsável por garantir que a equipe siga as práticas do Scrum e remova os impedimentos que possam surgir. Uma vez que também está no papel  de Product Owner, Andressa Guedes será responsável por priorizar o backlog do produto, ou seja, a lista de funcionalidades baseadas nos requisitos do projeto, que por sua vez foram apurados tendo como base as necessidades do cliente.
+
+- A equipe de desenvolvimento e design será responsáveis por entregar o trabalho tendo como base o tempo definido no Sprint. Sprint é o período fixo que a equipe scrum possuirá para entregar um conjunto de funcionalidades pré-estabelecidos no Dashboard.
+
+- Durante o projeto reuniões serão feitas durante a semana visando discutir o progresso do trabalho, cada qual com uma temática diferente, conforme segue abaixo.
+
+  . **Reunião de acompanhamento:** cada membro da equipe compartilha o que fez desde o último encontro, o que planeja fazer até a próxima reunião e eventuais impedimentos que possam estar travando o progresso do projeto.
+  . **Reunião para revisão do sprint:** nesse encontro a equipe Scrum apresenta o trabalho concluído durante o sprint. O Product Owner e outras partes interessadas podem fornecer feedback sobre o trabalho concluído e revisar o backlog do produto.
+  . **Reunião de retrospectiva do sprint:** a retrospectiva do sprint é uma reunião em que a equipe Scrum revisará o sprint anterior para identificar áreas de melhoria. A equipe poderá discutir o que funcionou bem, o que não funcionou tão bem e quais mudanças podem ser feitas para melhorar o processo no futuro.
+
+Esses são alguns dos principais detalhes da utilização do Scrum no projeto. É importante lembrar que o Scrum é uma metodologia flexível sendo assim adaptações podem ser feitas visando atender às necessidades específicas da equipe e/ou do projeto.
+
  
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
