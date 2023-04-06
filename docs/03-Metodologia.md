@@ -34,9 +34,40 @@ A gerência de issues no GitHub é importante para rastrear tarefas, problemas, 
 
 ## Gerenciamento de Projeto
 
+A equipe usa metologias ágeis para auxiliar no gerenciamento, o Scrum foi o método escolhido como base na execução do processo de desenvolvimento deste projeto.
+
+A ferrramenta utilizada no Projeto para auxiliar na organização, gestão do tempo e distribuição das tarefas é o GitHub, através da criação de um Dashboard dentro do mesmo. Esse board será constantemente atualizado de acordo com a desenvolvimento do projeto.
+
+Segue abaixo um resumo sobre a disposição das listas:
+
+- **Backlog (A fazer):** abriga todas as tarefas a serem executdas para que o desenvolvimento do porojeto aconteça, representa o Product Backlog. Todas as atividades identificadas no decorrrer do projeto também devem ser incorporadas a esta lista.
+
+- **Em andamento:** nesta lista estão as tarefas a serem executadas durante o Sprint corrente e representa o Sprint Backlog. Aqui fica definido o que cada integrante fará durante a etapa.
+
+- **Doing (To do):** quando uma tarefa tiver sido iniciada, ela é movida para cá.
+
+- **Revisão:** as tarefas concluídas devem ser movidas para essa lista, onde passam por uma revisão final antes de serem concluídas.
+
+- **Done (Concluída):** nesta lsta serão alocadas as tarefas que passarem pelos teste e controle de qualidade e estão aptas a serem entregues ao usuário/cliente. Não há mais edições ou revisões necessárias, eles está agendado e pronto para a ação.
+
+- **Entregue:** quando as tarefas forem entregues, as mesmas serão alocadas nessa lista.
+
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe foi organizada, conforme abaixo, da seguinte maneira:
+
+- **Scrum Master:** Andressa Guedes
+
+- **Product Owner:** Andressa Guedes
+
+- **Equipe de Desenvolvimento:** . Andressa Guedes
+                                 . Felipe Viana
+                                 . Luana Scardua
+                                 . Sanderlei Cabral
+                                 
+- **Equipe de Design:** . Felipe Viana
+                        . Luana Scardua
+                        . Sanderlei Cabral
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
