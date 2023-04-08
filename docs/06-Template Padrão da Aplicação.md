@@ -4,7 +4,7 @@
 
 O layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia, segue abaixo conforme figura.
 
-![TEmplate](docs/img/Template.png)
+docs/img/Template.png
 
 
 
