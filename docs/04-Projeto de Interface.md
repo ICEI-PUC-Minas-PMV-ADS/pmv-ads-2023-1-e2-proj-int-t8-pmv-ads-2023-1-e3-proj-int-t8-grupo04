@@ -37,7 +37,7 @@ Tendo como base o Diagrama de Fluxo apresentado  no  item  anterior,  as  telas 
 
 **TELA INICIAL**
 
-![Tela Inicial 4](img/Tela Inicial 4.png)
+![Tela Inicial 4](docs/img/Tela Inicial 4.png)
 
 
 **TELA MINHA CONTA**
