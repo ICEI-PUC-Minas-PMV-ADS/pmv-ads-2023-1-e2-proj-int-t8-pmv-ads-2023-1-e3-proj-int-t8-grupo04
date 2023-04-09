@@ -20,7 +20,7 @@ O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamen
 
 Tendo como base o Diagrama de Fluxo apresentado  no  item  anterior,  as  telas  do  sistema  são apresentadas em detalhes nos itens que se seguem. As páginas do sistema apresentam uma estrutura comum padrão que é apresentada.
 
-**TELA DE ENTRADA**
+**Tela de Entrada**
 
 Porta de entrada da aplicação, aqui o usuário poderá escolher entre logar (caso já tenha se registrado), ou criar um usuário e senha, através da opção de criar uma conta.
 
