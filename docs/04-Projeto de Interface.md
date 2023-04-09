@@ -22,41 +22,41 @@ Tendo como base o Diagrama de Fluxo apresentado  no  item  anterior,  as  telas 
 
 **TELA DE ENTRADA**
 
-![Tela de Entrada 1](img/Tela de Entrada 1.png)
+![Tela de Entrada 1](docs/img/Tela de Entrada 1.png)
 
 
 **TELA DE CADASTRO**
 
-![Tela de Cadastro 2](img/Tela de Cadastro 2.png)
+![Tela de Cadastro 2](docs/img/Tela de Cadastro 2.png)
 
 
 **TELA DE LOGIN**
 
-![Tela de Login 3](img/Tela de Login 3.png)
+![Tela de Login 3](docs/img/Tela de Login 3.png)
 
 
 **TELA INICIAL**
 
-![Tela Inicial 4](img/Tela Inicial 4.png)
+![Tela Inicial 4](docs/img/Tela Inicial 4.png)
 
 
 **TELA MINHA CONTA**
 
-![Tela Minha Conta 5](img/Tela Minha Conta 5.png)
+![Tela Minha Conta 5](docs/img/Tela Minha Conta 5.png)
 
 
 **TELA CATEGORIAS**
 
-![Tela Categorias 6](img/Tela Categorias 6.png)
+![Tela Categorias 6](docs/img/Tela Categorias 6.png)
 
-![Tela Blusas 7](img/Tela Blusas 7.png)
+![Tela Blusas 7](docs/img/Tela Blusas 7.png)
 
 
 **TELA MEUS LOOKS**
 
-![Tela Looks 8](img/Tela Looks 8.png)
+![Tela Looks 8](docs/img/Tela Looks 8.png)
 
-![Tela Academia 9](img/Tela Academia 9.png)
+![Tela Academia 9](docs/img/Tela Academia 9.png)
 
 
  
