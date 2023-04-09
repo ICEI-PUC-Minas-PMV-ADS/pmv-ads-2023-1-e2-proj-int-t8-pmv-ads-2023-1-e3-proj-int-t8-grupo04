@@ -4,7 +4,7 @@
 
 O layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia, segue abaixo conforme figura.
 
-docs/img/Template.png
+![Template](img/Template.png)
 
 O template do site é composto pelos seguintes layouts e funcionalidades:
 
