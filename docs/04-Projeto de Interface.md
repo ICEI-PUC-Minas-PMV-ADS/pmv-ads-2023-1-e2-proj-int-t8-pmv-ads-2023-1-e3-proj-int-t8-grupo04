@@ -22,37 +22,55 @@ Tendo como base o Diagrama de Fluxo apresentado  no  item  anterior,  as  telas 
 
 **TELA DE ENTRADA**
 
+Porta de entrada da aplicação, aqui o usuário poderá escolher entre logar (caso já tenha se registrado), ou criar um usuário e senha, através da opção de criar uma conta.
+
 ![Tela de Entrada 1](docs/img/Tela de Entrada 1.png)
 
 
 **TELA DE CADASTRO**
+
+Aqui, o usuário que está acessando a aplicação pela primeira vez irá digitar seus dados para criar um login e senha.
 
 ![Tela de Cadastro 2](docs/img/Tela de Cadastro 2.png)
 
 
 **TELA DE LOGIN**
 
+Após criar um login e senha o usuário poderá acessar a aplicação.
+
 ![Tela de Login 3](docs/img/Tela de Login 3.png)
 
 
 **TELA INICIAL**
+
+Já dentro da aplicação, apresentamos ao usuário um menu lateral à esquerda, dentro desse menu minimalista encontra-se tudo que o usuário precisa para interagir com o aplicativo.
 
 ![Tela Inicial 4](docs/img/Tela Inicial 4.png)
 
 
 **TELA MINHA CONTA**
 
+Na opção "Minha Conta" o usuário poderá colocar sua foto de perfil, editar informações pessoais, enviar mensagens de sugestões e/ou questionamentos para a parte técninca da aplicação etc
+
 ![Tela Minha Conta 5](docs/img/Tela Minha Conta 5.png)
 
 
 **TELA CATEGORIAS**
 
+Uma vez dentro do menu "Categorias" o cliente poderá adicionar ou remover categorias do seu guarda roupa virtual de acordo com sua necessidade e preferência. Como exemplo, pode-se criar uma categoria de favoritos, com as peças que mais gosta de usar, ou uma categoria contendo roupas para doações, enfim, a customização aqui é livre, bastando apenas utilizar os botões com sinal de + para criar ou - para remover.
+
 ![Tela Categorias 6](docs/img/Tela Categorias 6.png)
+
+Dentro de tela de categorias o sistema de inclusão ou remoção de peças é o mesmo, + para adicionar ou - para remover. 
 
 ![Tela Blusas 7](docs/img/Tela Blusas 7.png)
 
 
 **TELA MEUS LOOKS**
+
+Talvez a parte mais interessante da aplicação seja esta. O usuário pode criar categorias (mais uma vez usando os botões de adicionar e remover) relacionadas com os tipos de roupas que estão dentro do seu guarda roupa virtual. Por exemplo, ao criar a categoria "Casual" pode-se adiconar um look inteiro que poderá ser usando em eventos casuais, como churrascos, passeios no shopping etc.
+
+A grande vantagem de ter looks já pre-criados é que o usuário ganha agilidade e economiza tempo, sem contar que a chance de repetir um look fica bem menor, já que pode estar constantemente editando essa parte do aplicativo.
 
 ![Tela Looks 8](docs/img/Tela Looks 8.png)
 
