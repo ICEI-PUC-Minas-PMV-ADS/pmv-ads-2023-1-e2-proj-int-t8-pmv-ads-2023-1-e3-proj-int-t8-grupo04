@@ -6,6 +6,10 @@ O layout padrão da aplicação que será utilizado em todas as páginas com a d
 
 docs/img/Template.png
 
+O template do site é composto pelos seguintes layouts e funcionalidades:
+
+- **Menu Principal:** fixado na lateral esquerda da tela, através dele o usuário irá interagir com o aplicativo de acordo com a opção desejada.
+- **Opções do Menu:** através do acesso de cada opção será aberta ao lado direito, no centro da tela, o conteúdo correspondente. Dentro de cada opção selecionada é padrão encontrar os botões de adicionar e/ou remover, sejam peças, listas ou categorias.
 
 
 
