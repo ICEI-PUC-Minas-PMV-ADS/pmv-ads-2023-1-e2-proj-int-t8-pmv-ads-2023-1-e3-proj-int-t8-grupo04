@@ -139,4 +139,4 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 ## Diagrama de Casos de Uso
 
-docs/img/Diagrama Crud.jpeg
+![Diagrama Crud](img/Diagrama Crud.jpeg)
