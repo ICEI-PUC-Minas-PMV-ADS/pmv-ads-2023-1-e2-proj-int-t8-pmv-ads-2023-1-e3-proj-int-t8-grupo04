@@ -22,7 +22,7 @@ Tendo como base o Diagrama de Fluxo apresentado  no  item  anterior,  as  telas 
 
 **TELA DE ENTRADA**
 
-![Tela de Entrada 1](img/ Tela de Entrada 1.png)
+![Tela de Entrada 1](img/Tela de Entrada 1.png)
 
 
 **TELA DE CADASTRO**
