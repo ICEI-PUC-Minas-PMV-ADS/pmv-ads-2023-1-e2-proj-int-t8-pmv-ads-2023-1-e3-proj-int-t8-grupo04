@@ -1,0 +1,191 @@
+html, body {
+    caret-color: transparent;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+
+.vertical-menu {
+    width: 300px;
+}
+
+    .vertical-menu a {
+        background-color: #eee;
+        display: block;
+        padding: 30px;
+        text-decoration: none;
+        margin-top: 7%;
+        width: 200%;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+        .vertical-menu a.active {
+            background-color: #e1a1d6;
+            color: black;
+        }
+#buttons li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    margin-right: 30px;
+    width: 150px;
+    line-height: 60px;
+}
+#buttons active {
+    background-color: #e1a1d6;
+    color: black;
+}
+
+.btn-primary {
+    background-color: #e1a1d6 !important;
+    color: black !important;
+    margin-top: 15px;
+}
+
+    .btn-primary:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    }
+
+
+.topMenu {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 2%;
+    color: black;
+}
+
+.TopButtons {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+    li:last-child {
+        border-right: none;
+    }
+
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover:not(.active) {
+            background-color: #e1a1d6;
+            color: #b01b9f;
+        }
+
+
+.float-container {
+    /*    border: 3px solid #fff;
+*/ padding: 20px;
+    display: flex;
+    color: black;
+}
+
+.float-child {
+    width: 40%;
+    float: left;
+    padding: 20px;
+    /*    border: 2px solid red;
+*/
+}
+/* The popup form - hidden by default */
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 1px solid black;
+    z-index: 9;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+    /* Full-width input fields */
+    .form-container input[type=text], .form-container input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+    }
+
+        /* When the inputs get focus, do something */
+        .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+
+    /* Set a style for the submit/login button */
+    .form-container .btn {
+        background-color: #6ab5ee;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 10px;
+        opacity: 0.8;
+    }
+
+    
+    .form-container .register {
+        background-color: #e1a1d6;
+    }
+
+
+    .form-container .btn:hover, .open-button:hover {
+        opacity: 1;
+    }
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
