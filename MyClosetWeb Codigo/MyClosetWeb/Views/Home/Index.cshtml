@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<div class="text-center" text-align: center;>
+    <img src="~/imgs/slogam.png" width=250 height=150 runat="server" ;>
+    <h1 class="display-6">Seja Bem Vindo(a)!</h1>
+    <p> </p>
+</div>
+
+<div class="form-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+        <span class="close" onclick="closeForm()">&times;</span>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="psw"><b>Senha</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        
+        <button type="submit" class="btn">Entrar</button>
+        <button type="button" id="registerbtn" class="btn register" >Cadastrar</button>
+    </form>
+</div>
+
+@section scripts {
+    <script>
+        $(function () {
+            $("#registerbtn").click(function () {
+                window.location.href = '@Url.Action("RegisterPage", "Home")';
+            });
+        });
+    </script>
+}
+
