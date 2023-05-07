@@ -24,234 +24,24 @@ Código da aplicação:
 
 index.shtml:
 
-@{
-    ViewData [ " Título " ] =  " Página inicial " ;
-}
-< cabeça >
-    < script  src = " https://code.jquery.com/jquery-3.6.0.min.js " ></ script >
-</ cabeça >
-
-< div  class = " centro de texto "  alinhamento de texto:  centro; >
-    < img  src = " ~/imgs/slogam.png "  largura = 250  altura = 150  runat = " servidor "  ; >
-    < h1  class = " display-6 " >Seja Bem Vindo(a)!</ h1 >
-    < p > </ p >
-</div> _ _
-
-< div  class = " form-popup "  id = " meuformulário " >
-    < form  action = " /action_page.php "  class = " form-container " >
-        < span  class = " close "  onclick = " closeForm() " > & times ; </ span >
-
-        < label  for = " email " >< b >E-mail</ b ></ label >
-        < input  type = " text "  placeholder = " Enter Email "  name = " email "  obrigatório >
-
-        < label  for = " psw " >< b >Senha</ b ></ label >
-        < input  type = " password "  placeholder = " Enter Password "  name = " psw "  obrigatório >
-
-        < button  type = " submit "  class = " btn " >Entrar</ button >
-        < button  type = " button "  id = " registerbtn "  class = " btn register " >Cadastrar</ button >
-    </forma> _ _
-</div> _ _
-
-scripts @section {
-    <script> _ _
-        $ ( função () {
-            $ ( " #registrobtn " ). clique ( função (){
-                janela . localização . href  =  ' @Url.Action("RegisterPage", "Home") ' ;
-            });
-        });
-    </ script >
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/commit/bcca2ecd32934e7d147bc1c4ee39d3ed72f77b3b#diff-a848a706c52e0c1a5d5c6b02e1037c41ce457c12c28bb8cd7d64842915d8d4f1
 
 RegisterPage.shtml:
 
-@model MyClosetWeb . Modelos . Do utilizador
-
-@{
-    Layout  =  " ~/Views/Shared/_Layout.cshtml " ;
-}
-
-<!DOCTYPE html>
-
-<html> _ _
-< cabeça >
-    < meta  name = " viewport "  content = " width=device-width " />
-    < title >Página de registro</ title >
-</ cabeça >
-< corpo >
-
-< h4 >Cadastre-se!</ h4 >
-< h />
-< div  classe = " linha " >
-    < div  classe = " col-md-4 " >
-        < form  asp-action = " RegisterPage " >
-            < div  asp-validation-summary = " ModelOnly "  class = " text-danger " ></ div >
-            < div  class = " formulário-grupo " >
-                < label  asp-for = " Name "  class = " control-label " >Nome Completo</ label >
-                < input  asp-for = " Name "  class = " form-control " />
-                < span  asp-validation-for = " Name "  class = " text-danger " ></ span >
-            </div> _ _
-            < div  class = " formulário-grupo " >
-                < label  asp-for = " Email "  class = " control-label " ></ label >
-                < input  asp-for = " Email "  class = " form-control " />
-                < span  asp-validation-for = " Email "  class = " text-danger " ></ span >
-            </div> _ _
-            < div  class = " formulário-grupo " >
-                < label  asp-for = " Senha "  class = " control-label " >Senha</ label >
-                < input  asp-for = " Password "  class = " form-control " />
-                < span  asp-validation-for = " Password "  class = " text-danger " ></ span >
-            </div> _ _
-            < b />
-           < div  class = " formulário-grupo " >
-                < input  type = " submit "  value = " Registrar "  class = " btn btn-primary " />
-            </div> _ _
-        </forma> _ _
-    </div> _ _
-</div> _ _
-
-<div> _ _
-    < a  asp-action = " Index " >Retornar a página inicial</ a >
-</div> _ _
-
-@section Scripts {
-    @{ aguarde  Html . RenderPartialAsync ( " _ValidationScriptsPartial " ); }
-}
-</ corpo >
-</html> _ _
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/commit/bcca2ecd32934e7d147bc1c4ee39d3ed72f77b3b#diff-d3262c56acc316b3db82c823154b05a94e22eefdfae2208261c54ce20ab3cfb5
 
 Privacy.cshtml:
 
-
-@{
-    ViewData [ " Title " ] =  " Suporte e Comercial " ;
-}
-< h1 > @ViewData ["Título"]</ h1 >
-
-< p >Contato de Suporte: suporte @MyClosetWeb.com. </p> _ _
-< p >Contato Comercial: comercial @MyClosetWeb.com. </p> _ _
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/commit/bcca2ecd32934e7d147bc1c4ee39d3ed72f77b3b#diff-91ba14f88c0c4f3df552a088434c1feef265abeb50f4052759c9e6362c3199bb
 
 
 homecontroller.cs:
 
-@@ -0,0 +1,32 @@
-﻿usando Microsoft . AspNetCore . Mvc ;
-usando MyClosetWeb . Modelos ;
-usando Sistema . Diagnósticos ;
-
-namespace MyClosetWeb . controladores
-{
-     classe  pública HomeController  :  Controlador
-    {
-
-        índice IActionResult público ( )
-        {
-            retornar Visão ( ) ;
-        }
-
-        Public IActionResult Privacidade ( )
-        {
-            retornar Visão ( ) ;
-        }
-
-        public ActionResult RegisterPage ( )
-        {
-            retornar Visão ( ) ;
-        }
-
-
-        [ ResponseCache ( Duração =  0 , Local = ResponseCacheLocation . Nenhum , NoStore =  verdadeiro ) ]
-        Erro IActionResult público ( )
-        {
-            return View ( new ErrorViewModel {  RequestId  = Activity . Current ? . Id ?? HttpContext . TraceIdentifier } ) ;
-        }
-    }
-}
-
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/commit/bcca2ecd32934e7d147bc1c4ee39d3ed72f77b3b#diff-56f303d149864892013ca80d3afac1e00cb06d2ff177c99b70399d4e8634b760
 
 RegisterPage.cs:
 
-@@ -0,0 +1,83 @@
-﻿usando Microsoft . AspNetCore . Http ;
-usando Microsoft . AspNetCore . Mvc ;
-
-namespace MyClosetWeb . controladores
-{
-     classe  pública RegisterPageController  :  Controlador
-    {
-        // GET: RegisterController
-        Índice ActionResult público ( )
-        {
-            retornar Visão ( ) ;
-        }
-
-        // GET: RegisterController/Detalhes/5
-        Public ActionResult Details ( int  id )
-        {
-            retornar Visão ( ) ;
-        }
-
-        // GET: RegisterController/Create
-        public ActionResult Create ( )
-        {
-            retornar Visão ( ) ;
-        }
-
-        // POST: RegisterController/Create
-        [ HttpPost ]
-        [ ValidateAntiForgeryToken ]
-        public ActionResult Create ( coleção IFormCollection  )
-        {
-            tentar
-            {
-                return RedirectToAction ( nameof ( Index ) ) ;
-            }
-            pegar
-            {
-                retornar Visão ( ) ;
-            }
-        }
-
-        // GET: RegisterController/Edit/5
-        public ActionResult Edit ( int  id )
-        {
-            retornar Visão ( ) ;
-        }
-
-        // POST: RegisterController/Edit/5
-        [ HttpPost ]
-        [ ValidateAntiForgeryToken ]
-        public ActionResult Edit ( int  id ,  coleção IFormCollection  )
-        {
-            tentar
-            {
-                return RedirectToAction ( nameof ( Index ) ) ;
-            }
-            pegar
-            {
-                retornar Visão ( ) ;
-            }
-        }
-
-        // GET: RegisterController/Delete/5
-        public ActionResult Delete ( int  id )
-        {
-            retornar Visão ( ) ;
-        }
-
-        // POST: RegisterController/Delete/5
-        [ HttpPost ]
-        [ ValidateAntiForgeryToken ]
-        public ActionResult Delete ( int  id ,  coleção IFormCollection  )
-        {
-            tentar
-            {
-                return RedirectToAction ( nameof ( Index ) ) ;
-            }
-            pegar
-            {
-                retornar Visão ( ) ;
-            }
-        }
-    }
-}
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/commit/bcca2ecd32934e7d147bc1c4ee39d3ed72f77b3b#diff-ef6165375cde023b8e3c6c0ddf7843424ea2783af603e74e0d73af705542a159
 
 # Instruções de acesso
 
