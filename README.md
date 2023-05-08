@@ -12,7 +12,6 @@ O projeto trata-se de uma aplicação web, onde sera construido um closet online
 
 - Andressa Júlia Guedes Ribeiro
 - Felipe De Oliveira Viana
-- Luana Scardua
 - Sanderlei Cabral
 
 
