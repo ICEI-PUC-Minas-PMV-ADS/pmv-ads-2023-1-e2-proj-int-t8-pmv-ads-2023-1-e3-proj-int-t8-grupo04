@@ -7,13 +7,13 @@ Nesta parte do projeto serão exibidos os elementos técnicos propostos pela equ
 
 Os compenentes básicos da solução serão apresentados conforme figura abaixo.
 
-![Diagrama de Classes](docs/img/Diagrama de Classes.png)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/blob/main/docs/img/Diagrama%20de%20Classes.png" alt="Diagrama de Classes">
 
 ## Modelo ER (Projeto Conceitual)
 
 Abaixo segue Modelo ER representando através de um diagrama como as entidades do My CLoset se relacionam entre si na aplicação interativa.
 
-![Modelo ER](docs/img/Modelo ER.png)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/blob/main/docs/img/Modelo%20ER.png" alt="Modelo ER">
 
 Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
 
