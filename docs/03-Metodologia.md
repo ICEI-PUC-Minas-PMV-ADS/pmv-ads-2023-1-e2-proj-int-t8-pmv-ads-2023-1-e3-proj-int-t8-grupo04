@@ -69,10 +69,6 @@ A equipe foi organizada, conforme abaixo, da seguinte maneira:
                         . Luana Scardua
                         . Sanderlei Cabral
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
 
 ### Processo
 
@@ -94,12 +90,6 @@ Conforme especificado anteriormente, uma vez definido o Scrum como metodologia d
 
 Esses são alguns dos principais detalhes da utilização do Scrum no projeto. É importante lembrar que o Scrum é uma metodologia flexível sendo assim adaptações podem ser feitas visando atender às necessidades específicas da equipe e/ou do projeto.
 
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
 
 ### Ferramentas
 
@@ -119,7 +109,3 @@ A ferramenta de comunicação utilizada, Microsoft Teams, além de suprir as nec
 
 Por fim, para criarmos Diagramas e Wireframes utilizamos o LucidChart e o Figma, pois entendemos que estes melhor traduzem as nossas necessidades e do projeto também.
 
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
