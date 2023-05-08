@@ -10,15 +10,15 @@ Implementação do sistema descrita por meio dos requisitos funcionais e/ou não
 
 Tela Home:
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/blob/main/docs/img/home.jpg
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/blob/main/docs/img/home.jpg" alt="Tela Inicial">
 
-Tela login:
+Popup login:
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/blob/main/docs/img/tela_login.jpg
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/blob/main/docs/img/tela_login.jpg" alt="popup login">
 
 Tela Cadastro:
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/blob/main/docs/img/tela_cadastro.jpg
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/blob/main/docs/img/tela_cadastro.jpg" alt="Tela cadastro">
 
 Código da aplicação:
 
@@ -34,7 +34,6 @@ Privacy.cshtml:
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/commit/bcca2ecd32934e7d147bc1c4ee39d3ed72f77b3b#diff-91ba14f88c0c4f3df552a088434c1feef265abeb50f4052759c9e6362c3199bb
 
-
 homecontroller.cs:
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/commit/bcca2ecd32934e7d147bc1c4ee39d3ed72f77b3b#diff-56f303d149864892013ca80d3afac1e00cb06d2ff177c99b70399d4e8634b760
@@ -45,12 +44,6 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-
 
 # Instruções de acesso
 
-link de acesso: ANDRESSA INSERIR
+link de acesso: https://myclosetweb.azurewebsites.net
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+
