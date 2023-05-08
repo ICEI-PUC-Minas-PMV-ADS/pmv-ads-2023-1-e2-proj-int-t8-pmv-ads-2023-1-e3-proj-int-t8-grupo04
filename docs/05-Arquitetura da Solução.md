@@ -12,13 +12,11 @@ Os compenentes básicos da solução serão apresentados conforme figura abaixo.
 
 ## Modelo ER (Projeto Conceitual)
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
+Abaixo segue Modelo ER representando através de um diagrama como as entidades do My CLoset se relacionam entre si na aplicação interativa.
+
+![Modelo ER](docs/img/Modelo ER.png)
 
 Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
-
-A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
 
 ## Projeto da Base de Dados
 
@@ -34,7 +32,9 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+A ambiente de ospedagem escolhido para a  plataforma será o Azure.
+A publicação da plataforma no Azure é feita por meio de uma submissão do projeto (push) via git para o repositório remoto.
+
 
 > **Links Úteis**:
 >
