@@ -1,6 +1,5 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
 Nesta parte do projeto serão exibidos os elementos técnicos propostos pela equipe, bem como parte da solução criada. Tratar-se a os componentes e do seus ambiente de hospedagem.
 
@@ -20,26 +19,16 @@ Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
 
 ## Projeto da Base de Dados
 
-O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
- 
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+Um arquivo JSON (JavaScript Object Notation) é um formato de dados leve e fácil de ler e escrever, que é amplamente utilizado em aplicativos da web para armazenar informações. No caso de um cadastro de aplicação web, um arquivo JSON pode ser usado para armazenar os dados do usuário, como nome, endereço de e-mail, número de telefone, senha, entre outros. Esses dados podem ser organizados em um objeto JSON, com cada atributo representando um campo do formulário de cadastro. Quando um usuário preenche o formulário, os dados são enviados para o servidor da aplicação, que os converte em um objeto JSON e os armazena em um arquivo em disco ou em um banco de dados. O arquivo JSON pode ser acessado posteriormente para recuperar informações do usuário e preencher formulários de edição de perfil, por exemplo. O uso de arquivos JSON para armazenamento de dados de cadastro em uma aplicação web pode ser uma solução simples e eficiente, além de permitir a fácil integração com outras tecnologias da web.
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Para a implementação da solução. Foi utilizadas as linguagens c#, HTML, CSS. O frameworks ASP.NET MVC.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+docs/img/fluxo interação tecnologias.png
 
 ## Hospedagem
 
-A ambiente de ospedagem escolhido para a  plataforma será o Azure e econtra-se no seguinte endereço https://myclosetweb.azurewebsites.net/.
-A publicação da plataforma no Azure é feita por meio de uma submissão do projeto (push) via git para o repositório remoto.
+A ambiente de Hospedagem escolhido para a  plataforma será o Azure e econtra-se no seguinte endereço https://myclosetweb.azurewebsites.net/.
+O Azure é uma plataforma de computação em nuvem que oferece diversos serviços para hospedagem, gerenciamento e escalabilidade de aplicativos. Uma das formas de fazer a publicação de um aplicativo no Azure é por meio de um processo de deploy contínuo, que utiliza o Git como meio de envio de código para o ambiente de produção. Para isso, é necessário configurar um repositório remoto no Azure e vinculá-lo ao repositório local do projeto. Em seguida, o desenvolvedor pode fazer o commit das alterações no projeto e fazer o push para o repositório remoto, que irá disparar um pipeline de deploy automático. O pipeline pode incluir etapas como compilação, teste e implantação em um ambiente de produção ou pré-produção, dependendo da configuração escolhida. Esse processo automatizado de deploy contínuo via Git ajuda a reduzir os riscos de erros humanos e a aumentar a eficiência do ciclo de desenvolvimento de software, permitindo que o desenvolvedor foque na criação de novas funcionalidades e melhorias para o aplicativo.
 
-
-
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
