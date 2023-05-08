@@ -2,14 +2,49 @@
 
 Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
 
-Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (em função dos requisitos levantados/implementados), dos critérios que serão utilizados para a seleção dos participantes, dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), das tarefas a serem executadas, dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), a ordem de execução das tarefas e das etapas da sessão de teste, recursos demandados, métricas coletadas etc.
+Plano de Testes de Usabilidade para Cadastro em Site de Closet Online
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
+Objetivos:
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+Avaliar a facilidade de uso do processo de cadastro no site de closet online.
+Identificar possíveis problemas de usabilidade no processo de cadastro.
+Avaliar a satisfação do usuário ao realizar o processo de cadastro.
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+Critérios de Seleção:
+
+Dois voluntários consumidores de roupas, com idades entre 18 e 40 anos.
+Experiência prévia com cadastro em sites de e-commerce.
+
+Procedimentos:
+
+Os testes serão realizados de forma presencial.
+Será utilizada a observação direta e o registro de métricas.
+Será solicitado aos participantes que realizem o processo de cadastro no site de closet online.
+Serão coletados dados como quantidade de cliques, número de erros, tempo gasto e feedback dos participantes.
+
+Tarefas:
+
+Acessar a página de cadastro no site de closet online.
+Preencher os campos obrigatórios do formulário de cadastro.
+Clicar no botão de confirmação para finalizar o cadastro.
+Realizar login com as informações cadastradas.
+
+Etapas da Sessão de Teste:
+
+Introdução: explicação sobre o processo de teste e assinatura do termo de consentimento.
+Execução das Tarefas: os participantes realizarão as tarefas designadas enquanto o observador registra as métricas.
+Coleta de Feedback: ao final da sessão, os participantes serão convidados a fornecer feedback sobre a experiência de cadastro no site.
+Encerramento: agradecimento aos participantes e encerramento da sessão.
+
+Recursos Demandados:
+
+Acesso ao site de closet online.
+Computadores ou dispositivos móveis para acesso ao site.
+Observador para registrar as métricas.
+
+Métricas Coletadas:
+
+Tempo gasto para realizar o cadastro.
+Quantidade de cliques necessários para completar o cadastro.
+Número de erros cometidos durante o processo de cadastro.
+Feedback dos participantes sobre a experiência de cadastro.
