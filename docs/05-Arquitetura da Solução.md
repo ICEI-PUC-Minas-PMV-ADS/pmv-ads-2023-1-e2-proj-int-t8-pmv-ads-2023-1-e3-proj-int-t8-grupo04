@@ -25,7 +25,7 @@ Um arquivo JSON (JavaScript Object Notation) é um formato de dados leve e fáci
 
 Para a implementação da solução. Foi utilizadas as linguagens c#, HTML, CSS. O frameworks ASP.NET MVC.
 
-<img src="[URL_DA_IMAGEM](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/blob/4041e70df1a866a79716cf96851ab557e41d3259/docs/img/fluxo%20intera%C3%A7%C3%A3o%20tecnologias.png)" alt="Descrição do fluxo da interação das tecnologias utilizadas">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/blob/main/docs/img/fluxo%20intera%C3%A7%C3%A3o%20tecnologias.png" alt="Descrição do fluxo da interação das tecnologias utilizadas">
 
 ## Hospedagem
 
