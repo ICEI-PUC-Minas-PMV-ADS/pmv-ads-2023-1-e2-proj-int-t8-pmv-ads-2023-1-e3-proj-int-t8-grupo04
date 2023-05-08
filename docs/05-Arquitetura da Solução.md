@@ -32,8 +32,9 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 
 ## Hospedagem
 
-A ambiente de ospedagem escolhido para a  plataforma será o Azure.
+A ambiente de ospedagem escolhido para a  plataforma será o Azure e econtra-se no seguinte endereço https://myclosetweb.azurewebsites.net/.
 A publicação da plataforma no Azure é feita por meio de uma submissão do projeto (push) via git para o repositório remoto.
+
 
 
 > **Links Úteis**:
