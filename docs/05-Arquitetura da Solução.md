@@ -19,7 +19,19 @@ Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
 
 ## Projeto da Base de Dados
 
-Um arquivo JSON (JavaScript Object Notation) é um formato de dados leve e fácil de ler e escrever, que é amplamente utilizado em aplicativos da web para armazenar informações. No caso de um cadastro de aplicação web, um arquivo JSON pode ser usado para armazenar os dados do usuário, como nome, endereço de e-mail, número de telefone, senha, entre outros. Esses dados podem ser organizados em um objeto JSON, com cada atributo representando um campo do formulário de cadastro. Quando um usuário preenche o formulário, os dados são enviados para o servidor da aplicação, que os converte em um objeto JSON e os armazena em um arquivo em disco ou em um banco de dados. O arquivo JSON pode ser acessado posteriormente para recuperar informações do usuário e preencher formulários de edição de perfil, por exemplo. O uso de arquivos JSON para armazenamento de dados de cadastro em uma aplicação web pode ser uma solução simples e eficiente, além de permitir a fácil integração com outras tecnologias da web.
+No contexto da aplicação web de gerenciamento de closet, o SQL Server Management Studio (SSMS) será utilizado para armazenar os dados relacionados às peças de roupa, usuários e outras informações relevantes. A seguir estão algumas maneiras pelas quais o SSMS será utilizado:
+
+1. Criação do banco de dados: O SSMS será usado para criar um banco de dados no SQL Server especificamente para armazenar os dados do aplicativo de gerenciamento de closet. Isso envolverá a definição de um nome adequado para o banco de dados e a configuração de suas propriedades, como tamanho, opções de recuperação e collation.
+
+2. Criação de tabelas: Com o banco de dados criado, o SSMS será utilizado para criar as tabelas necessárias para armazenar as informações sobre as peças de roupa, usuários e outras entidades relevantes para o aplicativo de gerenciamento de closet. Cada tabela terá colunas correspondentes aos atributos das entidades, como nome da roupa, cor, tamanho, estilo, etc.
+
+3. Definição de relacionamentos: O SSMS permitirá a definição de relacionamentos entre as tabelas, como a relação entre um usuário e o closet associado a ele. Isso envolverá a criação de chaves estrangeiras nas tabelas relevantes para estabelecer a integridade referencial.
+
+4. Inserção de dados: O SSMS será usado para inserir dados iniciais nas tabelas, como exemplos de peças de roupa e usuários. Isso pode ser útil para fornecer um conjunto inicial de dados para testar a funcionalidade do aplicativo de gerenciamento de closet.
+
+5. Consulta e atualização de dados: Durante a execução do aplicativo web, o SSMS será usado para consultar e atualizar os dados armazenados no banco de dados. Os comandos SQL podem ser escritos e executados no SSMS para recuperar informações específicas sobre as peças de roupa de um usuário, adicionar ou remover itens do closet e realizar outras operações de gerenciamento de dados.
+
+6. Otimização e manutenção: O SSMS também pode ser usado para otimizar e manter o banco de dados ao longo do tempo. Isso pode envolver a criação de índices para melhorar o desempenho das consultas, a execução de tarefas de backup e restauração dos dados, a monitorização do desempenho do banco de dados e a aplicação de atualizações de esquema conforme necessário.
 
 ## Tecnologias Utilizadas
 
