@@ -1,4 +1,6 @@
-﻿@{
+﻿@model MyClosetWeb.Models.User
+
+@{
     ViewData["Title"] = "Home Page";
 }
 <head>
@@ -12,17 +14,17 @@
 </div>
 
 <div class="form-popup" id="myForm">
-    <form action="/action_page.php" class="form-container">
+    <form class="form-container" asp-controller="RegisterPage"  method="post">
         <span class="close" onclick="closeForm()">&times;</span>
 
-        <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" required>
+        <label asp-for="Email" class="control-label"></label>
+        <input asp-for="Email" type="email" class="form-control" />
 
-        <label for="psw"><b>Senha</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
+        <label asp-for="Password" class="control-label">Senha</label>
+        <input asp-for="Password" type="password" class="form-control" />
         
-        <button type="submit" class="btn">Entrar</button>
-        <button type="button" id="registerbtn" class="btn register" >Cadastrar</button>
+        <button type="submit" class="btn" asp-controller="RegisterPage" asp-action="CheckUser">Entrar</button>
+        <button type="button" id="registerbtn" class="btn register" asp-controller="RegisterPage" asp-action="Register">Cadastrar</button>
     </form>
 </div>
 

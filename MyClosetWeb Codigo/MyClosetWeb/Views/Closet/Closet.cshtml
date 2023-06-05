@@ -1,0 +1,83 @@
+﻿@model MyClosetWeb.Models.Clothes
+
+@{
+    ViewData["Title"] = "Closet";
+    Layout = "~/Views/Shared/_Layout.cshtml";    
+}
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
+</head>
+
+<div class="text-center" text-align: center;>
+    <img src="~/imgs/slogam.png" width=250 height=150 runat="server" ;>
+    <h1 class="display-6">Seja Bem Vindo(a), @ViewBag.CurrentUser.Name!!</h1>
+    <p> 
+
+
+    </p>
+    <button type="button" class="btn btn-primary btn-add-piece">Adicionar Peça</button>
+
+    <div class="row">
+        < class="col-md-4">
+            <form asp-controller="ClosetController" asp-action="RegisterCloset" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Nickname" class="control-label">Apelido da Peça</label>
+                    <input asp-for="Nickname" class="form-control" />
+                    <span asp-validation-for="Nickname" class="text-danger"></span>
+                </div>
+                <div class="small-form-group">
+                    <label asp-for="Color" class="control-label">Cor</label>
+                    <input asp-for="Color" type="color" class="form-control" />
+                    <span asp-validation-for="Color" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Size" class="control-label">Tamanho</label>
+                    <input asp-for="Size" class="form-control" />
+                    <span asp-validation-for="Size" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    @Html.DropDownListFor(model => model.Type, new SelectList(Enum.GetValues(typeof(ClotheType))), "Selecione o tipo da peça")
+                </div>              
+                <div class="form-group">
+                    @Html.DropDownListFor(model => model.Tissue, new SelectList(Enum.GetValues(typeof(TissueType))), "Selecione o tipo do tecido")
+                </div>
+                <div class="form-group">
+                    <label for="Image">Enviar Imagem:</label>
+                    <input type="file" id="Image" name="Image" class="form-control-file" />
+                </div>
+                <b />
+                <div class="form-group">
+                    <input type="submit" value="Registrar" asp-action="RegisterCloset"  class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@if (@ViewBag.UserCloset is not null && @ViewBag.UserCloset.Clothes.Any()){
+    @foreach (var cloth in @ViewBag.UserCloset.Clothes)
+{
+    <div>
+        <img src="@cloth.Imagem" alt="Element Image" />
+        <p>@cloth.Nickname</p>
+        <button onclick="location.href='@Url.Action("Edit", "Element", new { id = cloth.Id })'">Edit</button>
+        <button onclick="location.href='@Url.Action("Delete", "Element", new { id = cloth.Id })'">Delete</button>
+    </div>
+}
+}
+
+
+
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $('.row').hide(); // Oculta o formulário inicialmente
+
+            $('.btn-add-piece').click(function () {
+                $('.row').show(); // Mostra o formulário ao clicar no botão "Adicionar Peça"
+            });
+        });
+    </script>
+}

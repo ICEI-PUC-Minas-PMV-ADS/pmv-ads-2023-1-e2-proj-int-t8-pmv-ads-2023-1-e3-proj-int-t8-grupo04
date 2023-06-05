@@ -1,83 +1,62 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MyClosetWeb.Data;
+using MyClosetWeb.Models;
+using Newtonsoft.Json;
+using System.Reflection.Metadata;
 
 namespace MyClosetWeb.Controllers
 {
     public class RegisterPageController : Controller
     {
+        private readonly DataContext _context;
+
+        public RegisterPageController(DataContext context)
+        {
+            _context = context;
+        }
+
+        [HttpPost]
+        public IActionResult RegisterPage(User newUser)
+        {            
+            if (ModelState.IsValid)
+            {                
+                _context.Users.Add(newUser);
+                _context.SaveChanges();
+                return Closet();
+            }
+            return View(newUser);
+        }        
+        [HttpPost]
+        public IActionResult CheckUser(User User)
+        {
+
+            var isUserRegistred = _context.Users.FirstOrDefault(u => u.Email.Equals(User.Email)
+                                                    && u.Password.Equals(u.Password));
+            if (isUserRegistred is not null)
+            {
+                string userJson = JsonConvert.SerializeObject(isUserRegistred);
+
+                TempData["LoggedUser"] = userJson;
+
+                return RedirectToAction("LoadUser", "Closet");
+            }
+
+            return Register();
+        }
+
         // GET: RegisterController
         public ActionResult Index()
         {
-            return View();
-        }
-
-        // GET: RegisterController/Details/5
-        public ActionResult Details(int id)
+            return View("~/Views/Home/Index.cshtml");
+        }         
+        public ActionResult Register()
         {
-            return View();
-        }
-
-        // GET: RegisterController/Create
-        public ActionResult Create()
+            return View("~/Views/Home/RegisterPage.cshtml");
+        }             
+        public ActionResult Closet()
         {
-            return View();
-        }
-
-        // POST: RegisterController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: RegisterController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: RegisterController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: RegisterController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: RegisterController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+            return View("~/Views/Closet/Closet.cshtml");
+        }        
     }
 }
