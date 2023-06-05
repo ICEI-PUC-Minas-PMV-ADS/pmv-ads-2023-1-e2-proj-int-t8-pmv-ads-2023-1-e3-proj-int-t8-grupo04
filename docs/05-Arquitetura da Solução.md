@@ -1,47 +1,46 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+Nesta parte do projeto serão exibidos os elementos técnicos propostos pela equipe, bem como parte da solução criada. Tratar-se a os componentes e do seus ambiente de hospedagem.
 
 ## Diagrama de Classes
 
-O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
+Os compenentes básicos da solução serão apresentados conforme figura abaixo.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
-
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/blob/main/docs/img/Diagrama%20de%20Classes.png" alt="Diagrama de Classes">
 
 ## Modelo ER (Projeto Conceitual)
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
+Abaixo segue Modelo ER representando através de um diagrama como as entidades do My CLoset se relacionam entre si na aplicação interativa.
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/blob/main/docs/img/Modelo%20ER.png" alt="Modelo ER">
 
 Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
 
-A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
-
 ## Projeto da Base de Dados
 
-O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
- 
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+No contexto da aplicação web de gerenciamento de closet, o SQL Server Management Studio (SSMS) será utilizado para armazenar os dados relacionados às peças de roupa, usuários e outras informações relevantes. A seguir estão algumas maneiras pelas quais o SSMS será utilizado:
+
+1. Criação do banco de dados: O SSMS será usado para criar um banco de dados no SQL Server especificamente para armazenar os dados do aplicativo de gerenciamento de closet. Isso envolverá a definição de um nome adequado para o banco de dados e a configuração de suas propriedades, como tamanho, opções de recuperação e collation.
+
+2. Criação de tabelas: Com o banco de dados criado, o SSMS será utilizado para criar as tabelas necessárias para armazenar as informações sobre as peças de roupa, usuários e outras entidades relevantes para o aplicativo de gerenciamento de closet. Cada tabela terá colunas correspondentes aos atributos das entidades, como nome da roupa, cor, tamanho, estilo, etc.
+
+3. Definição de relacionamentos: O SSMS permitirá a definição de relacionamentos entre as tabelas, como a relação entre um usuário e o closet associado a ele. Isso envolverá a criação de chaves estrangeiras nas tabelas relevantes para estabelecer a integridade referencial.
+
+4. Inserção de dados: O SSMS será usado para inserir dados iniciais nas tabelas, como exemplos de peças de roupa e usuários. Isso pode ser útil para fornecer um conjunto inicial de dados para testar a funcionalidade do aplicativo de gerenciamento de closet.
+
+5. Consulta e atualização de dados: Durante a execução do aplicativo web, o SSMS será usado para consultar e atualizar os dados armazenados no banco de dados. Os comandos SQL podem ser escritos e executados no SSMS para recuperar informações específicas sobre as peças de roupa de um usuário, adicionar ou remover itens do closet e realizar outras operações de gerenciamento de dados.
+
+6. Otimização e manutenção: O SSMS também pode ser usado para otimizar e manter o banco de dados ao longo do tempo. Isso pode envolver a criação de índices para melhorar o desempenho das consultas, a execução de tarefas de backup e restauração dos dados, a monitorização do desempenho do banco de dados e a aplicação de atualizações de esquema conforme necessário.
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Para a implementação da solução. Foi utilizadas as linguagens c#, HTML, CSS. O frameworks ASP.NET MVC.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/blob/main/docs/img/fluxo%20intera%C3%A7%C3%A3o%20tecnologias.png" alt="Descrição do fluxo da interação das tecnologias utilizadas">
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+A ambiente de Hospedagem escolhido para a  plataforma será o Azure e econtra-se no seguinte endereço https://myclosetweb.azurewebsites.net/.
+O Azure é uma plataforma de computação em nuvem que oferece diversos serviços para hospedagem, gerenciamento e escalabilidade de aplicativos. Uma das formas de fazer a publicação de um aplicativo no Azure é por meio de um processo de deploy contínuo, que utiliza o Git como meio de envio de código para o ambiente de produção. Para isso, é necessário configurar um repositório remoto no Azure e vinculá-lo ao repositório local do projeto. Em seguida, o desenvolvedor pode fazer o commit das alterações no projeto e fazer o push para o repositório remoto, que irá disparar um pipeline de deploy automático. O pipeline pode incluir etapas como compilação, teste e implantação em um ambiente de produção ou pré-produção, dependendo da configuração escolhida. Esse processo automatizado de deploy contínuo via Git ajuda a reduzir os riscos de erros humanos e a aumentar a eficiência do ciclo de desenvolvimento de software, permitindo que o desenvolvedor foque na criação de novas funcionalidades e melhorias para o aplicativo.
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)

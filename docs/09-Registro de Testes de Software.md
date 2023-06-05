@@ -29,6 +29,3 @@ Todos os membros familiares (pai, mãe e filhos), efeturam a montagem de looks e
 <strong>Caso de teste 07: COMPARTILHAMENRO EM REDES SOCIAIS </strong><br>
 Todos os membros familiares (pai, mãe e filhos), após ações de inserção de peças (roupas e acessórios), bem como a montagem de looks, puderam compartilhar com seus amigos a novidade e mostrar em tempo real a gama de estilos disponíveis em seu closet. Os looks após montados, foram compatilhados em suas redes socias onde obtiveram diversos likes e elogios. Elogio ao look escolhido e elogio ao aplicativo levando em consideraçao a praticidade e composição de looks de "milhões". <br> Não houve qualquer erro aparente no processo de composição de looks, onde todas as etapas foram concluídas e gravadas com sucesso.
 
-
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
