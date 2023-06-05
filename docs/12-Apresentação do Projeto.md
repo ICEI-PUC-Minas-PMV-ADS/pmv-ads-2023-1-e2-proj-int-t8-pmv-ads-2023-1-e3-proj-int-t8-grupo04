@@ -8,7 +8,7 @@ My Closet, seu guarda roupa inteligente.
 
 ## Identidade Visual (Marca, Design)
 
-O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/blob/main/docs/img/Diagrama%20de%20Classes.png" alt="Slogam, logomarca">
 
 
 
