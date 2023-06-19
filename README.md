@@ -6,7 +6,7 @@
 
 `EIXO 2`
 
-O projeto trata-se de uma aplicação web, onde sera construido um closet online, com as peças reais do guarda roupa do usuario. Sera utilizada a linguagem c# em back-end, e no front-end Html, Java Script e Css.
+O projeto trata-se de uma aplicação web, onde sera construido um closet online, com as peças reais do guarda roupa do usuario. Sera utilizada a linguagem c# em back-end, e no front-end Html e Css.
 
 ## Integrantes
 
@@ -21,13 +21,13 @@ O projeto trata-se de uma aplicação web, onde sera construido um closet online
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Deve-se acessar o site por meio do link a seguir, realizar o login para criar seu closet e adicionar sua peças.
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
+https://myclosetweb.azurewebsites.net
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
+Usuário de teste: usuário - joao@email.com / senha - batata.
 
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+
 
 # Documentação
 
@@ -49,7 +49,7 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 
 # Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/tree/a5358e7f2a0b21dafbd5ed07f76eb94041a6a627/MyClosetWeb%20Codigo"> Código Fonte</a></li>
 
 # Apresentação
 
