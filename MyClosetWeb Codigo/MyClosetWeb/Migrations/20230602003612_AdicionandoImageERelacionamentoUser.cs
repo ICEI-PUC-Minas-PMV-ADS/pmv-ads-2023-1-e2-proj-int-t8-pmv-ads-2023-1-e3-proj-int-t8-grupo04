@@ -4,10 +4,10 @@
 
 namespace MyClosetWeb.Migrations
 {
-    /// <inheritdoc />
+    
     public partial class AdicionandoImageERelacionamentoUser : Migration
     {
-        /// <inheritdoc />
+        
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropForeignKey(
@@ -73,7 +73,7 @@ namespace MyClosetWeb.Migrations
                 principalColumn: "ClosetId");
         }
 
-        /// <inheritdoc />
+        
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropForeignKey(

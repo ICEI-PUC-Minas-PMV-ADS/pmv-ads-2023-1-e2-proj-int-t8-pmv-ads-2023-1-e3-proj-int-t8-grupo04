@@ -4,10 +4,10 @@
 
 namespace MyClosetWeb.Migrations
 {
-    /// <inheritdoc />
+    
     public partial class CreateClosetDatabase : Migration
     {
-        /// <inheritdoc />
+        
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
@@ -54,7 +54,7 @@ namespace MyClosetWeb.Migrations
                 column: "UserId");
         }
 
-        /// <inheritdoc />
+       
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(

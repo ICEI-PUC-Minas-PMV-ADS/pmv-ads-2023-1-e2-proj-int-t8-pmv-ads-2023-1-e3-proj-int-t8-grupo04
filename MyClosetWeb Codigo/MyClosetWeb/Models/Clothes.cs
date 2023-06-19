@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MyClosetWeb.Models
 {
@@ -12,5 +13,8 @@ namespace MyClosetWeb.Models
         public TissueType Tissue { get; set; }
         public ClotheType Type { get; set; }
         public string Image { get; set; }
+        
+        [NotMapped] 
+        public IFormFile ImageFile { get; set; }
     }
 }

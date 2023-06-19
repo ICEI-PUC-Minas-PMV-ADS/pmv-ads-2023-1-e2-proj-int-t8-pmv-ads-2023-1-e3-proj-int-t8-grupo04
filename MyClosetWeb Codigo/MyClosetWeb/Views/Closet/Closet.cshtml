@@ -10,7 +10,15 @@
 
 <div class="text-center" text-align: center;>
     <img src="~/imgs/slogam.png" width=250 height=150 runat="server" ;>
-    <h1 class="display-6">Seja Bem Vindo(a), @ViewBag.CurrentUser.Name!!</h1>
+    @if (@ViewBag.CurrentUser is not null)
+       {
+        <h1 class="display-6">Seja Bem Vindo(a), @ViewBag.CurrentUser.Name!!</h1>
+       }
+    else{
+    <h1 class="display-6">Seja Bem Vindo(a)!!</h1>
+
+       }
+
     <p> 
 
 
@@ -19,7 +27,7 @@
 
     <div class="row">
         < class="col-md-4">
-            <form asp-controller="ClosetController" asp-action="RegisterCloset" method="post">
+        <form asp-controller="ClosetController" asp-action="RegisterCloset" method="post" enctype="multipart/form-data">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group">
                     <label asp-for="Nickname" class="control-label">Apelido da Peça</label>
@@ -43,8 +51,8 @@
                     @Html.DropDownListFor(model => model.Tissue, new SelectList(Enum.GetValues(typeof(TissueType))), "Selecione o tipo do tecido")
                 </div>
                 <div class="form-group">
-                    <label for="Image">Enviar Imagem:</label>
-                    <input type="file" id="Image" name="Image" class="form-control-file" />
+                <label asp-for="ImageFile">Enviar Imagem:</label>
+                <input asp-for="ImageFile" type="file" name="ImageFile" accept="image/*" />
                 </div>
                 <b />
                 <div class="form-group">
@@ -55,17 +63,27 @@
     </div>
 </div>
 
-@if (@ViewBag.UserCloset is not null && @ViewBag.UserCloset.Clothes.Any()){
-    @foreach (var cloth in @ViewBag.UserCloset.Clothes)
+@if (@ViewBag.UserCloset is not null)
 {
-    <div>
-        <img src="@cloth.Imagem" alt="Element Image" />
-        <p>@cloth.Nickname</p>
-        <button onclick="location.href='@Url.Action("Edit", "Element", new { id = cloth.Id })'">Edit</button>
-        <button onclick="location.href='@Url.Action("Delete", "Element", new { id = cloth.Id })'">Delete</button>
+    <div class="profile-grid">
+        @foreach (var cloth in @ViewBag.UserCloset.Clothes)
+        {
+            <div class="cloth-item">
+                <p>@cloth.Nickname</p>
+                <img class="image-size" src="data:image/png;base64,@cloth.Image" alt="Image">
+                <div class="button-container">
+                    <form asp-controller="MeuController" asp-action="Metodo1" method="post">
+                        <button class="btn-add-piece" type="submit">EDITAR</button>
+                    </form>
+                    <form asp-controller="ClosetController" asp-action="ExcluirPeca" method="post">
+                        <button class="btn-add-piece" type="submit">EXCLUIR</button>
+                    </form>
+                </div>
+            </div>
+        }
     </div>
 }
-}
+
 
 
 

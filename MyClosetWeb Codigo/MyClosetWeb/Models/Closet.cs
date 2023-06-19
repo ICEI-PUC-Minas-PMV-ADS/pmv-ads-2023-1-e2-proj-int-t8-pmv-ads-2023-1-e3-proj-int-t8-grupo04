@@ -14,7 +14,6 @@ namespace MyClosetWeb.Models
             Clothes = new List<Clothes>();
         }
 
-        // Relacionamento com o User
         [ForeignKey("User")]
         public int UserId { get; set; }
         public User User { get; set; }
