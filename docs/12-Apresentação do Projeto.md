@@ -1,6 +1,6 @@
 # Apresentação
 
-Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/blob/235fe74ec01b092481fac5a19e90a50c3c9855fb/presentation/Apresentacao%20Final.pptx"> Conjuto de Slides </a></li>
 
 ## Título do Projeto
 
@@ -14,5 +14,5 @@ My Closet, seu guarda roupa inteligente.
 
 ## Conjunto de Slides (Estrutura)
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/raw/main/presentation/Apresentacao%20Final.pptx
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/blob/235fe74ec01b092481fac5a19e90a50c3c9855fb/presentation/Apresentacao%20Final.pptx"> Slide de apresentação</a></li>
  
