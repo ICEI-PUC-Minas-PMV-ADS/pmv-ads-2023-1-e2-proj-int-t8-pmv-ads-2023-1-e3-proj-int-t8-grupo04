@@ -53,4 +53,4 @@ Usuário de teste: usuário - joao@email.com / senha - batata.
 
 # Apresentação
 
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
+<li><a href="https://drive.google.com/file/d/1tj00LVQw95PKw4X09u6T-yFCfcUhdxqq/view?usp=drive_link"> Apresentação da solução</a></li>
