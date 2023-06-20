@@ -14,5 +14,5 @@ My Closet, seu guarda roupa inteligente.
 
 ## Conjunto de Slides (Estrutura)
 
-<presentation src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/raw/main/presentation/Apresentacao%20Final.pptx"
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t8-pmv-ads-2023-1-e3-proj-int-t8-grupo04/raw/main/presentation/Apresentacao%20Final.pptx
  
